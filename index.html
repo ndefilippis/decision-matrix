@@ -7,51 +7,102 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class = "matrix">
+  <form class = "matrix" >
 
   <table>
     <tr>
       <th>
+        <label>Factors</label>
       </th>
       <th>
-        Factor 1
+        <input name = "f1" type="text" value="Factor 1"></input>
       </th>
       <th>
-        Factor 2
+        <input name = "f2" type="text" value="Factor 2"></input>
       </th>
       <th>
-        Factor 3
+        <input name = "f3" type="text" value="Factor 3"></input>
       </th>
       <td class="add-wrapper">
         <form class="add add-option">
-          <i class="add-row fa fa-plus-circle "></i>
+          <button class="btn"><i class="add-row fa fa-plus-circle "></i></button>
         </form>
       </td>
     </tr>
     <tr>
       <th>
-        Weight
+        <label>Min/Max</label>
       </th>
+      <td>
+        <div class="toggle-button">
+          <button></button>
+        </div>
+      </td>
+      <td>
+        <div class="toggle-button">
+          <button></button>
+        </div>
+      </td>
+      <td>
+        <div class="toggle-button">
+          <button></button>
+        </div>
+      </td>
     </tr>
     <tr>
       <th>
-        Option 1
+        <label>Weight</label>
       </th>
+      <td>
+        <input type="number" name="w1" value="0.0">
+      </td>
+      <td>
+        <input type="number" name="w2" value="0.0">
+      </td>
+      <td>
+        <input type="number" name="w3" value="0.0">
+      </td>
     </tr>
     <tr>
       <th>
-        Option 2
+        <input type="text" name="a1" value="Option 1"></label>
       </th>
+      <td>
+        <input type="number" name="v11" value="0"></input>
+      </td>
+      <td>
+        <input type="number" name="v12" value="0"></input>
+      </td>
+      <td>
+        <input type="number" name="v13" value="0"></input>
+      </td>
+    </tr>
+    <tr>
+      <th>
+        <input type="text" name="a2" value="Option 2"></label>
+      </th>
+      <td>
+        <input type="number" name="v21" value="0"></input>
+      </td>
+      <td>
+        <input type="number" name="v22" value="0"></input>
+      </td>
+      <td>
+        <input type="number" name="v23" value="0"></input>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <button  class = "btn"><i class="add-col fa fa-plus-circle"></i></button>
+      </td>
+      <td></td>
+      <td></td>
+      <td  class="results">
+        <button class= "btn btn-default btn-sm">Reset</button>
+        <button class= "btn btn-primary btn-sm">Calculate</button>
+      </td>
     </tr>
   </table>
-  <form>
-    <i class="add-col fa fa-plus-circle"></i>
-  </form>
-
-  <form class="results">
-    <button class= "btn btn-default btn-sm">Reset</button>
-    <button class= "btn btn-primary btn-sm">Calculate</button>
-  </form>
-</div>
+</form>
 </body>
 </html>
