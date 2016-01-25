@@ -1,29 +1,57 @@
 <!DOCTYPE html>
+<html>
 <head>
-  <script src="js/matrix.js" />
+  <script src="js/matrix.js"> </script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" >
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class = "matrix">
+
   <table>
-    <th>
-      <td>
-        Factor 1
-      </td>
-      <td>
-        Factor 2
-      </td>
-      <td>
-        Factor 3
-      </td>
-    </th>
     <tr>
-      <td>
-        Option 1
+      <th>
+      </th>
+      <th>
+        Factor 1
+      </th>
+      <th>
+        Factor 2
+      </th>
+      <th>
+        Factor 3
+      </th>
+      <td class="add-wrapper">
+        <form class="add add-option">
+          <i class="add-row fa fa-plus-circle "></i>
+        </form>
       </td>
     </tr>
     <tr>
-      <td>
+      <th>
+        Weight
+      </th>
+    </tr>
+    <tr>
+      <th>
+        Option 1
+      </th>
+    </tr>
+    <tr>
+      <th>
         Option 2
-      </td>
+      </th>
     </tr>
   </table>
+  <form>
+    <i class="add-col fa fa-plus-circle"></i>
+  </form>
+
+  <form class="results">
+    <button class= "btn btn-default btn-sm">Reset</button>
+    <button class= "btn btn-primary btn-sm">Calculate</button>
+  </form>
+</div>
 </body>
+</html>

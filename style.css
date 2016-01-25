@@ -1,0 +1,25 @@
+form{
+  display: inline-block;
+}
+.results{
+  float: right;
+}
+.matrix{
+  overflow: hidden;
+  width: 300px;
+}
+body{
+  padding: 0;
+  margin: 0;
+}
+.add{
+  vertical-align: top;
+  display: inline-block;
+}
+.wrapper{
+  right: -30px;
+}
+.fa-plus-circle{
+  color: #006dcc;
+  font-size: 20px;
+}
