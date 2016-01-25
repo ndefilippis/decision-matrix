@@ -1,11 +1,17 @@
 form{
   display: inline-block;
+
 }
 .results{
   float: right;
 }
+.matrix-wrapper{
+  text-align: center;
+}
 .matrix{
+  margin-top: 200px;
   overflow: hidden;
+  text-align: center;
 }
 body{
   padding: 0;
