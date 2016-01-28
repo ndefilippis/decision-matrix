@@ -40,7 +40,7 @@ function calculate(){
   }
   for(var i = 0; i < options; i++){
     console.log(points[i]);
-    document.getElementById("results").innerHTML += "<li>"+points[i]+"</li>";
+    document.getElementById("resultTable").innerHTML += "<tr><td>Option "+(i+1)+"</td>"+"<td>"+points[i]+"</td>"+"</tr>";
   }
 
 }
