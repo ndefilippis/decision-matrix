@@ -38,9 +38,9 @@ function calculate(){
     }
 
   }
+  document.getElementById("resultTable").innerHTML = "";
   for(var i = 0; i < options; i++){
-    console.log(points[i]);
-    document.getElementById("resultTable").innerHTML += "<tr><td>Option "+(i+1)+"</td>"+"<td>"+points[i]+"</td>"+"</tr>";
+    document.getElementById("resultTable").innerHTML += "<tr><td>Option "+(i+1)+"</td>"+"<td>"+points[i]+"</td></tr>";
   }
 
 }
